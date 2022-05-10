@@ -32,6 +32,7 @@ func resourceNewRelicSyntheticsMonitor() *schema.Resource {
 					"BROWSER",
 					"SCRIPT_API",
 					"SCRIPT_BROWSER",
+					"CERT_CHECK",
 				}, false),
 			},
 			"name": {
